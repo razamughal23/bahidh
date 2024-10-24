@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title id="pagetitle">Contact | Bahidh Al Khair</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/img/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/img/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/img/favicon.png"
+    />
+    <link rel="manifest" href="/assets/img/site.webmanifest" />
+    <link rel="mask-icon" href="/assets/img/favicon.png" color="#162f68" />
+    <link rel="shortcut icon" href="/assets/img/favicon.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="/assets/img/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="scrollable-element">
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div>
+          <a href="./index.html">
+            <img
+              src="./Bahidh-web-logo.svg"
+              alt="Bahidh Logo"
+              style="width: 200px"
+            />
+          </a>
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a id="link1" class="nav-link scrollto active" href="./index.html"
+                >Home</a
+              >
+            </li>
+
+            <li>
+              <a id="link3" href="./our-expertise.html">Our Expertise</a>
+            </li>
+            <li>
+              <a id="link4" href="./work-with-us.html">Work with us</a>
+            </li>
+            <li>
+              <a id="link5" href="./contact.html">Contact</a>
+            </li>
+            <li>
+              <a>
+                <div id="language-selection">
+                  <img
+                    src="./assets/img/lang_img.png"
+                    alt="Language Toggle"
+                    id="language-img"
+                    style="cursor: pointer; width: 50px"
+                  />
+                </div>
+              </a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Section 1 -->
+      <section style="margin-top: 80px" class="container">
+        <div class="d-flex justify-content-center">
+          <div
+            style="width: 3px; height: 150px; background-color: #0ea9e5"
+          ></div>
+        </div>
+        <div style="padding: 20px 0px">
+          <h1
+            class="contactus-heading aboutus-heading-effect"
+            id="contactusHeading"
+          >
+            Contact Bahidh Al-Khair
+          </h1>
+          <p class="text-center" style="color: #0ea9e5" id="contactustext">
+            We'd love to hear from you! Whether you have questions, feedback, or
+            need assistance, our team at Bahid Al -Khair is here to help.
+          </p>
+          <p class="text-center" style="color: #0ea9e5" id="contactustext2">
+            Feel free to fill the form below:
+          </p>
+          <div class="row d-flex">
+            <div class="col-12 col-sm-6 d-flex justify-content-center">
+              <div class="contact-form">
+                <label for="myname"></label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Name"
+                  required
+                  onKeyUp="sendEmail()"
+                /><br />
+                <label for="msgsubject"></label>
+                <input
+                  type="text"
+                  id="msgsubject"
+                  placeholder="Subject"
+                  required
+                  onKeyUp="sendEmail()"
+                /><br />
+                <label for="phone"></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Phone#"
+                  class="phoneField"
+                  required
+                  onKeyUp="sendEmail()"
+                /><br />
+                <label for="msgbody"></label>
+                <textarea
+                  id="msgbody"
+                  placeholder="Type your message here..."
+                  required
+                  onKeyUp="sendEmail()"
+                ></textarea>
+                <div class="buttonPosition">
+                  <a href="" id="send_email"
+                    ><button href="" id="submitbutton">GET IN TOUCH</button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center">
+              <div class="contactus-grid2">
+                <p style="margin-bottom: 0px" id="address1">
+                  Office 308, Building 44 (Anwar AlMansour)
+                </p>
+                <p style="margin-bottom: 0px" id="address3">
+                  Road no. 12, Al Mansour City
+                </p>
+                <p style="margin-bottom: 0px" id="address2">Baghdad, Iraq</p>
+                <div
+                  class="contact-us-bar-effect"
+                  style="
+                    width: 100px;
+                    height: 2px;
+                    background-color: #0ea9e5;
+                    margin: 30px 0px;
+                  "
+                ></div>
+                <p style="margin-bottom: 0px">
+                  <a href="mailto:info@bahidh.com" style="color: #0ea9e5"
+                    >info@bahidh.com</a
+                  >
+                  <br />
+                  <a href="tel:+9647844414442" style="color: #0ea9e5"
+                    >Tel: +964 78 4441 4442</a
+                  >
+                </p>
+                <p style="margin-bottom: 0px" id="officetiming1">
+                  Our office is open from:
+                </p>
+                <p style="margin-bottom: 0px" id="officetiming2">
+                  Saturday to Thursday: 9:00 AM to 5:00 PM
+                </p>
+                <p style="margin-bottom: 0px" id="officetiming3">
+                  Friday: Closed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section 1 -->
+      <br />
+      <!-- Map Section -->
+      <section class="d-flex">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d559.233595287714!2d44.36593434688713!3d33.315142871603186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sae!4v1723611458120!5m2!1sen!2sae"
+          width="100%"
+          height="360"
+          style="border: 0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <!-- Map Section -->
+    </main>
+
+    <footer id="footer">
+      <div class="footer">
+        <div class="container text-center">
+          <nav class="row footer-pages">
+            <div class="col-12 col-lg-4">
+              <div class="list-inline-item">
+                <h1 class="footer-heading" id="footerHeading">
+                  Bahidh Al-Khair
+                </h1>
+                <div class="list-inline-item" id="companyname">
+                  Bahidh Al-Khair Company for General Trading, Plastic Pipe
+                  Industry, Administrative Services, Commercial and Advertising
+                  Marketing and E-Marketing Limited Liability Company
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 footerborder">
+              <div class="list-inline-item" id="footeraddress1">
+                Office 308, Building 44 (Anwar AlMansour)
+              </div>
+              <div class="list-inline-item" id="footeraddress2">
+                Road no. 12, Al Mansour City
+              </div>
+              <div class="list-inline-item" id="footeraddress3">
+                Baghdad, Iraq
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-4 d-flex flex-column justify-content-center"
+            >
+              <div>
+                <div class="list-inline-item" id="footerphone">Tel:</div>
+                <span class="footer-number">+964 78 4441 4442</span>
+              </div>
+              <div class="list-inline-item" id="footertiming">
+                Saturday to Thursday: 9:00 AM to 5:00 PM
+              </div>
+              <div class="list-inline-item" id="footertiming2">
+                Friday: Closed
+              </div>
+            </div>
+          </nav>
+        </div>
+        <nav>
+          <div class="footer-reserved" id="footerReserved">
+            © 2024 by Bahidh Al-Khair
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      function sendEmail() {
+        var link = document.getElementById("send_email");
+        var name = document.getElementById("name").value;
+        var subject = document.getElementById("msgsubject").value;
+        var number = document.getElementById("phone").value;
+        var message =
+          "From: " +
+          name +
+          "%0A%0DPhone:" +
+          number +
+          "%0A%0DMessage:" +
+          document.getElementById("msgbody").value;
+        var email = "info@bahidh.com";
+        var href =
+          "mailto:" + email + "?subject=" + subject + "&body=" + message;
+        console.log(href);
+        link.setAttribute("href", href);
+      }
+    </script>
+    <script>
+      const content = {
+        en: {
+          dir: "ltr",
+          pagetitle: "Contact | Bahidh Al Khair",
+          link1: "Home",
+          link3: "Our Expertise",
+          link4: "Work With Us",
+          link5: "Contact",
+          footerHeading: "Bahidh Al-Khair",
+          companyname:
+            "Bahidh Al-Khair Company for General Trading, Plastic Pipe Industry, Administrative Services, Commercial and Advertising Marketing and E-Marketing Limited Liability Company",
+          footeraddress1: "Office 308, Building 44 (Anwar AlMansour)",
+          footeraddress3: "Baghdad, Iraq",
+          footeraddress2: "Road no. 12, Al Mansour City",
+          footerphone: "Tel:",
+          footertiming: "Saturday to Thursday: 9:00 AM to 5:00 PM",
+          footertiming2: "Friday: Closed",
+          footerReserved: "© 2024 by Bahidh Al-Khair",
+          contactusHeading: "Contact",
+          contactustext:
+            "We'd love to hear from you! Whether you have questions, feedback, or need assistance, our team at Bahid Al -Khair is here to help.",
+          contactustext2: "Feel free to fill the form below:",
+          submitbutton: "GET IN TOUCH",
+          address1: "Office 308, Building 44 (Anwar AlMansour)",
+          address2: "Baghdad, Iraq",
+          address3: "Road no. 12, Al Mansour City",
+          name: "Name",
+          msgsubject: "Subject",
+          phone: "Phone#",
+          msgbody: "Type your message here...",
+          officetiming1: "Our office is open from:",
+          officetiming2: "Saturday to Thursday: 9:00 AM to 5:00 PM",
+          officetiming3: "Friday: Closed",
+        },
+        ar: {
+          dir: "rtl",
+          pagetitle: "تواصل معنا | باهض الخير",
+          link1: "الصفحة الرئيسية",
+          link3: "خبراتنا",
+          link4: "انضم لفريقنا",
+          link5: "تواصل معنا",
+          footerHeading: "باهض الخير",
+          companyname:
+            "شركة باهض الخير للتجارة العامة وصناعة الأنابيب البلاستيكية والخدمات الإدارية والتسويق التجاري والإعلاني والتسويق الإلكتروني المحدودة المسؤولية",
+          footeraddress1: "مكتب 308، المبنى 44 ( أنوار المنصور)",
+          footeraddress3: "بغداد، العراق",
+          footeraddress2: "طريق رقم 12، مدينة المنصور",
+          footerphone: "الهاتف:",
+          footertiming: "السبت إلى الخميس: من 9:00 صباحاً إلى 5:00 مساءً",
+          footertiming2: "الجمعة: عطلة",
+          footerReserved: "© 2024 بواسطة باهض الخير",
+          contactusHeading: "تواصل معنا",
+          contactustext:
+            "سواء كانت لديك استفسارات أو ملاحظات أو تحتاج إلى مساعدة، فإن فريق باهض الخير هنا لمساعدتك.",
+          contactustext2: "تفضل بتعبئة النموذج أدناه:",
+          submitbutton: "تواصل معنا",
+          address1: "مكتب 308، المبنى 44 ( أنوار المنصور)",
+          address2: "بغداد، العراق",
+          address3: "طريق رقم 12، مدينة المنصور",
+          name: "الاسم:",
+          msgsubject: "البريد الإلكتروني:",
+          phone: ":الهاتف",
+          msgbody: "الرسالة:",
+          officetiming1: "ساعات الدوام الرسمية من:",
+          officetiming2: "السبت إلى الخميس: من 9:00 صباحاً إلى 5:00 مساءً",
+          officetiming3: "الجمعة: عطلة",
+        },
+      };
+      function updateContent(lang) {
+        const elements = [
+          "pagetitle",
+          "link1",
+          "link3",
+          "link4",
+          "link5",
+          "footerHeading",
+          "companyname",
+          "footeraddress1",
+          "footeraddress2",
+          "footeraddress3",
+          "footerphone",
+          "footertiming",
+          "footertiming2",
+          "footerReserved",
+          "contactusHeading",
+          "contactustext",
+          "contactustext2",
+          "submitbutton",
+          "address1",
+          "address2",
+          "address3",
+          "name",
+          "msgsubject",
+          "phone",
+          "msgbody",
+          "officetiming1",
+          "officetiming2",
+          "officetiming3",
+        ];
+        document.body.setAttribute("dir", content[lang].dir);
+        elements.forEach((id) => {
+          const element = document.getElementById(id);
+          if (element) {
+            if (element.tagName === "INPUT" || element.tagName === "TEXTAREA") {
+              element.placeholder = content[lang][id];
+            } else {
+              element.textContent = content[lang][id];
+            }
+          } else {
+            console.warn(`Element with ID '${id}' not found`);
+          }
+        });
+      }
+      const languageImg = document.getElementById("language-img");
+      if (languageImg) {
+        languageImg.addEventListener("click", function () {
+          const currentLanguage =
+            document.body.getAttribute("dir") === "ltr" ? "en" : "ar";
+          const newLanguage = currentLanguage === "en" ? "ar" : "en";
+          localStorage.setItem("selectedLanguage", newLanguage);
+          updateContent(newLanguage);
+        });
+      } else {
+        console.warn("Language image element not found");
+      }
+      const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
+      updateContent(savedLanguage);
+    </script>
+  </body>
+</html>
